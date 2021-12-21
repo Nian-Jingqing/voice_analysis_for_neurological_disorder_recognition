@@ -1,0 +1,5 @@
+pandas
+plotly
+notebook
+# For saving the plots
+kaleido

@@ -1,0 +1,12 @@
+# exclude Mac system files
+.DS_Store
+
+# Old data folder
+/data/plot_data
+
+# Old backup figures
+/figures/figures_old
+
+# vscode config folder
+/.vscode
+

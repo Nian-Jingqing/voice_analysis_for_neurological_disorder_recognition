@@ -1,0 +1,146 @@
+Title,First author,Disorder,Subjects_Raw,diseased_all,diseased_male,diseased_female,control_all,control_male,control_female,Clinical assessment,assessment_category,assessment_scale,Tasks,Notes,Year,(Single) or (m)ultiple tasks,feature_extraction_aggregated,ml_aggregated,crossvalidation_aggregated
+Hilbert spectrum analysis for automatic detection and evaluation of Parkinson’s speech (2020),"Biswajit Karan, 2020",     PD     ,"20 D (10 M 10 F)
+20 C (10 M 10 F)",20,10,10,20,10,10,Clinical,clinical,,"SV*, RS","* “Vowels /e/, /i/ and /o/ are consistently the best along the classification experiments”",2020,m,custom,"SVM, regression",
+Multimodal data acquisition set for objective assessment of Parkinson’s disease,"Chmielinska, J., et al. 2020",     PD     ,-,,,,,,,Clinical,clinical,,"SV, RS, DD",no analyses included maybe a following publication already available ?,2020,m,,,
+TOWARDS DISEASE-SPECIFIC SPEECH MARKERS FOR DIFFERENTIAL DIAGNOSIS IN PARKINSONISM,"Das, B., 2019",     PD     ,25 D (16 M 9 F),25,16,9,,,,"Clinical:
+UPDRS",clinical,UPDRS,"SV, RS, DD, FS",* No analysis for distinguishing performance across tasks,2019,m,Praat,SVM,LOSO
+Speech and communication in Parkinson's disease: a cross-sectional exploratory study in the UK,"Barnish, M.S., 2017",     PD     ,"20 D (13 M 7 F)
+20 C (7 M 13 F)",20,13,7,20,7,13,"Clinical:
+UK Parkinson’s Disease Society Brain Bank criteria (PDSBB)",clinical,PDSBB,"RS, FS",* Analysis rather focussed on comparing PD and non-PD within respective tasks,2017,m,Praat,Statistical Analysis,
+"Prosodic analysis of neutral, stress-modified and rhymed speech in patients with Parkinson’s disease","Galaz, Z. et al., 2016",     PD     ,"98 ( 59 M 39 F)
+51 (25 M 26 F)",98,59,39,51,25,26,"Clinical:
+UPDRS",clinical,UPDRS,"RS, FS","* Stress-modified speech task has higher accuracies than reading task -> Importance of prosody
+* Poem recitation outperformed both reading tasks --> rhythmical demands best suited",2016,m,Praat,"Statistical Analysis, RF",10-fold-CV
+A Multi-Smartwatch System for Assessing Speech Characteristics of People with Dysarthria in Group Settings,"Dubey, H., et al. 2015",     PD     ,3 D,3,,,,,,"Clinical:
+Doctor",clinical,doctor,"SV, RS",hypokinetic dysarthria secondary to Parkinson disease.,2015,m,custom,Statistical Analysis,
+The Lee Silverman Voice Treatment (LSVT (R)) speech therapy in progressive supranudear palsy,"Sale, P., et al. 2015",     PD     ,13 + 23 D,36,,,,,,"Clinical:
+UPDRS",clinical,UPDRS,"SV, RS, FS",* “Comparing a specific voice treatment (pre and post recordings) between Parkinson's and PSP”,2015,m,custom,Statistical Analysis,
+New Spanish speech corpus database for the analysis of people suffering from Parkinson’s disease,"Orozco-Arroyave, J. et al.; 2014 [a]",     PD     ,"50 D (25M 25F),
+50 C (25M, 25F)",50,25,25,50,25,25,"Clinical: UPDRS, H&Y",clinical,"UPDRS, HY","SV, RS, DD, FS","* the results indicate that a selection of the speech features specific for a given speech task can in general increase prediction power of the regression model
+* Had some problems with their regression analysis",2014,m,custom,SVM,10-fold-CV
+Collection and Analysis of a Parkinson Speech Dataset With Multiple Types of Sound Recordings,"Sakar, B.E., et al.: 2013",     PD     ,"20 D (14 M 6 F)
+20 C (10 M 10 F)",20,14,6,20,10,10,"Clinical: UPDRS, H&Y",clinical,"UPDRS, HY","SV*, RS","* “Suitability of dysphonia measurements for telemonitoring of Parkinson’s disease), sustained vowels have been found to carry more PD-discriminative information than the isolated words and short sentences do”",2013,m,Praat,"SVM, k-NN",LOSO
+Accurate telemonitoring of Parkinson’s disease,"Tsanas, A., et al.; 2009",     PD     ,"42 D (28M 14F),
+0 C",42,28,14,,,,"Clinical:
+UPDRS",clinical,UPDRS,"SV, FS",*  ”We used sustained vowels to avoid the confounding effects of runningspeech and thereby simplify the signal analysis”,2009,m,Praat,"Statistical Analysis, other ML, regression",
+Effects of an extended version of the Lee Silverman Voice Treatment on voice and speech in Parkinson's disease,"Spielman, J., 2007",     PD     ,12 D (9 M 3 F),12,9,3,,,,Clinical,clinical,,"SV, RS, FS",Tasks as different measures for the success of voice therapy and not classification performance.,2007,m,custom,Statistical Analysis,
+Motor instability in parkinsonian speech intensity,"Ho, A.K., et al. 2001",     PD     ,"13 D (10 M 3 F)
+13 C (10 M 3 F)",13,10,3,13,10,3,"Clinical:
+Webster",clinical,Webster,"SV, RS",“The extent of intensity decay was unchanged by the level of speech intensity for both speech tasks.”,2001,m,custom,Statistical Analysis,
+Automated detection of Parkinson's disease using minimum average maximum tree and singular value decomposition method with vowels,"Tuncer, T., et al. 2020",     PD     ,"188 D (107 M 81 F)
+64 C (23 M 41 F)",188,107,81,64,23,41,,,,SV,,2020,s,custom,"SVM. K-NN, LR",10-fold-CV
+Multi-Source Ensemble Learning for the Remote Prediction of Parkinson's Disease in the Presence of Source-Wise Missing Data,"Prince, J., et al. 2019",     PD     ,1513 D&C,1513,,,,,,"Self:
+UPDRS (home)",self,UPDRS,SV,"Dataset mentioned in  “Big data in Parkinson’s disease: Using smartphones to remotely detect longitudinal disease phenotypes”, but not the voice aspect
+Subject numbers: 312 PD subjects and 236 controls?; not 1513 D&C as given in this paper?
+Self-assessment: UPDRS derived questionnaire
+
+Part of Mpower study
+
+* ""feature selection is better performed on a large cohort of participants with incomplete data than on a small number of participants with complete data""",2019,s,custom,"LR, RF, ANN: CNN",
+A Cross-Language Study of Acoustic Predictors of Speech Intelligibility in Individuals With Parkinson’s Disease,"Yunjung Kim, Yaelin Choi",     PD     ,"24 D (14 M 10 F)
+24 C (14 M 10 F)",24,14,10,24,14,10,"Clinical:
+doctor",clinical,doctor,RS,,2017,s,custom,Statistical Analysis,
+Addressing voice recording replications for Parkinson’s disease detection,"Naranjo, L., et al. 2016",     PD     ,"40D (27 M 13 F)
+40 (22 M 18 F)",40,27,13,40,22,18,"Clinical:
+Doctor",clinical,doctor,SV,,2016,s,custom,regression,100 fold CV
+Analysis of Phonation in Patients with Parkinson’s Disease using Empirical Mode Decomposition,"Smekal, Zdenek, et al. 2015",     PD     ,"84 D (48 M 36F)
+49 C (25 M 24 F)",84,48,36,49,25,24,"Clinical:
+Doctor",clinical,doctor,SV,,2015,s,custom,Statistical Analysis,
+Classification of speech intelligibility in Parkinson’s disease,Khan et al. 2014,     PD     ,"60 D (40M 20 F)
+20 C (8 M 12 F)",60,40,20,20,8,12,"Clinical:
+UPDRS",clinical,UPDRS,RS,"‘‘The North Wind and the Sun’’, ‘‘The Rainbow Passage’’ and ‘‘The Grandfather Passage’’",2014,s,custom,"Statistical Analysis, SVM",10-fold-CV
+Formant Centralization Ratio: A Proposal for a New Acoustic Measure of Dysarthric Speech,"Sapir, S., et al.: 2010",     PD     ,"38 D (19 M 19 F)
+14 C (7 M 7 F)",38,19,19,14,7,7,"Clinical:
+HY",clinical,HY,RS,,2010,s,custom,Statistical Analysis,
+Suitability of dysphonia measurements for telemonitoring of Parkinson’s disease,"Little, M.A., et al. 2008",     PD     ,"23 D (16 M 7 F)
+8 C (3 M 5 F)",23,16,7,8,3,5,"Clinical:
+Doctor",clinical,doctor,SV,,2008,s,Praat,SVM,
+Automated Voice Biomarkers for Depression Symptoms Using an Online Cross-Sectional Data Collection Initiative,"Zhang, L., et al. 2020",Depression,222 D (43 M 93 F 86 NA),222,,,,,,"Self:
+PHQ9",self,PHQ9,"RS, FS*",“The free speech task was better for predicting depression severity than the first task”,2020,m,openSMILE,"Statistical Analysis, other ML, regression",5-fold-CV
+Automatic Detection of Depressive States from Speech,"Mendiratta, A.,  et al. 2018",Depression,"12 D
+12 C",12,,,12,,,"Clinical:
+BDI",clinical,BDI,"RS, FS",Classification performed with all samples from both speech tasks,2018,m,custom,ANN,CV
+Ensemble-based Depression Detection in Speech,"Liu, Z., et al. 2017",Depression,"92 D (38 M 54 F)
+92 C (38 M 54 F)",92,38,54,92,38,54,"Clinical:
+MINI",clinical,MINI,"RS, FS","Reading:
+* Ten common Chinese words which came from affective ontology corpus [19] and Chinese sentimental words extremum table [20]
+
+Free speech:
+* three facial expression pictures, which were from Chinese Facial Affective Picture System (CFAPS) [21]
+
+Clinical Interview:
+* 18 questions from DSM-IV [17], HRSD [2] and other scales
+* interview has more diversity and gets higher accuracy than reading and picture description",2017,m,"openSMILE, Praat, VOICEBOX","SVM, k-NN, DT, RF",LOSO
+Detecting depression: A comparison between spontaneous and read speech,"Alghowinem, S. et al., 2013 [c]",Depression,"30 D
+30 C",30,,,30,,,"First self, then clinical: HAM-D","clinical, self",HAM-D,"SV, RS, FS*","* ""Regardless of the duration or part of speech, the overall recognition rate using spontaneous speech was higher than for read speech, indicating that spontaneous speech contains more relevant information about the subject’s general characteristics, including their affective state.""",2013,m,openSMILE,SVM,
+The Distress Analysis Interview Corpus of human and computer interviews,"Gratch, J., 2014",Depression,"224 D
+397 C",224,,,397,,,"Self:
+Depression, anxiety etc.",self,,FS,(automated) interviews,2014,s,,,
+UT-Scope: Speech under Lombard Effect and Cognitive Stress,"Ikeno, A., et al. 2007",Stress,"0 D
+30 C (11 M 19 F)",,,,30,11,19,,,,"RS, FS",Focus of analysis on speaker recognition performance,2007,m,,GMM,
+Predicting Biological Signals from Speech: Introducing a Novel Multimodal Dataset and Results,"Baird, A., et al. 2019",Stress,"0 D
+55 C (33 M 22 F)",,,,55,33,22,"Self:
+STAI",self,STAI,RS,"“Based on aspects of the recognised Tier Social
+Stress Test [16] (a study protocol developed in the field of
+psychology to evoke states of controlled stress), in the B IO S-
+DB individuals are reciting a text (the North Wind and the
+Sun) in both German and English language and in real time
+have their emotional states annotated by three individuals,
+whilst audio and biosignals (BVP and SC) are captured.”",2019,s,"openSMILE, custom","ANN: CNN, ANN: LSTM, regression",
+Assessing an Application of Spontaneous Stressed Speech - Emotions Portal,"Palacios-Alonso, D., 2019",Stress,"0 D
+32 C",,,,32,,,Self,self,,FS,"* Stress elicitation by defending the own oppinion on a cntroversial topic
+* Introduction of a framework and not analysis",2019,s,,,
+Towards Predicting Physiology from Speech During Stressful Conversations: Heart Rate and Respiratory Sinus Arrhythmia,"Jati, A., 2018",Stress,"0 D
+60 C (30 M 30 F)",,,,60,30,30,Physiological signals,,,FS,Couples interaction about relationship problem,2018,s,"openSMILE, VOICEBOX","Statistical Analysis, DT",5-fold-CV
+An audio-visual dataset of human-human interactions in stressful situations,"Lefter, I., 2014",Stress,"0 D
+60 C (30 M 30 F)",,,,60,30,30,Raters,,,FS,4 stressfull service desk interatction scenraios,2014,s,,Statistical Analysis,
+Modeling drivers' speech under stress,"Fernandez, R., 2003",Stress,"0 D
+4 C",,,,4,,,Experiment condition,,,FS,Driving in driving simulator while solving math questions,2003,s,custom,"HMM, SVM, ANN",CV
+An Assessment of Paralinguistic Acoustic Features for Detection of Alzheimer's Dementia in Spontaneous Speech,"Haider, F., 2020",AD,"82 D (36 M 46 F)
+82 C (36 M 46 F)",82,36,46,82,36,46,"Clinical:
+MMSE, doctor",clinical,MMSE,FS,Several free speech tasks,2020,s,openSMILE,"DT, LDA, SVM",LOSO
+Investigating the Effect of Audio Duration on Dementia Detection using Acoustic Features,"Weiner, Jochen, et al. 2018",AD,"71 D
+268 C",71,,,268,,,"Clinical:
+Doctor",clinical,doctor,FS,"Free speech: biographic interviews
+71 participants when adding numbers in table vs 74 participants in text",2018,s,custom,"GMM, HMM, regression",
+"Longitudinal Monitoring and Detection of Alzheimer’s Type Dementia from Spontaneous Speech Data
+The natural history of Alzheimer’s disease: Description of study cohort and accuracy of diagno- sis
+Pitt Corpus","Saturnino Luz 2017
+Becker 1994",AD,"214 D
+184 C",214,,,184,,,"Clinical:
+Doctor",clinical,doctor,FS,"* Spontaneous speech (more tasks might be availalbe in the original dataset
+* Original dataset referenced – use that instead
+* In original dataset: no mention of speech recording; only on dementioabank webiste: some infos… add this later in detail",2017,s,custom,GMM,10-fold-CV
+Objectively Monitoring Amyotrophic Lateral Sclerosis Patient Symptoms During Clinical Trials With Sensors: Observational Study,"Garcia-Gancedo, L., K. 2019",ALS,25 D (21 M 4 F),25,21,4,,,,"Clinical:
+Doctor",clinical,doctor,"SV, RS","""Change from baseline values at Week 48 were low for all speech end points studied, with no obvious pattern of change over time""",2019,m,,,
+Towards Automatic Detection of Amyotrophic Lateral Sclerosis from Speech Acoustic and Articulatory Samples,"Wang, J., 2016",ALS,"11 D
+11 C",11,,,11,,,"Clinical:
+SIT",clinical,SIT,"SV, RS",Compared acoustic features with articulatory movements. Performance was boosted when supplenmenting acoustic features with articulatory ones,2016,m,"openSMILE, VOICEBOX, Praat","SVM, k-NN, DT",
+Automatic Early Detection of Amyotrophic Lateral Sclerosis from Intelligible Speech Using Convolutional Neural Networks,"An, K., 2018",ALS,"13 D (4 M 9 F)
+13 C (5 M 8 F)",13,4,9,13,5,8,"Clinical:
+SIT, doctor",clinical,"SIT, doctor",RS,ASR related sentences,2018,s,openSMILE,"ANN, ANN: CNN",
+Voice Therapy Used to Test a Basic Protocol for Multidimensional Assessment of Dysphonia,"Rodriguez-Parra, M.J., 2009","Aphasia, dysarthria and dysphonia","21 D (3 M 18 F)
+21 C (3 M 18 F)",21,3,18,21,3,18,"Clinical:
+Doctor",clinical,doctor,"SV, RS, FS",‘‘Teatinos’’ Protocol with many clinical assessments,2009,m,custom,Statistical Analysis,
+Making sense of progressive non-fluent aphasia: an analysis of conversational speech,"Knibb, J.A., 2009","Aphasia, dysarthria and dysphonia","15 D (9M 6F)
+15 C (8 M 7 F)",15,9,6,15,8,7,"Clinical:
+Mesulam’s criteria for primary progressive aphasia",clinical,Mesulam,FS,Semi-structured conversation of 15–20 min,2009,s,custom,,
+Word frequency and bigram frequency effects on linguistic processing and speech motor performance in individuals with aphasia and normal speakers,"Bose, A., 2007","Aphasia, dysarthria and dysphonia","8 D (5 M 3 F)
+10 C (2 M 3 F)",8,5,3,10,2,3,"Clinical:
+Doctor",clinical,doctor,RS, four sets of monosyllabic words,2007,s,Praat,Statistical Analysis,
+Acoustic characteristics of the question-statement contrast in severe dysarthria due to cerebral palsy,"Patel, R., 2003. ","Aphasia, dysarthria and dysphonia","8 D (2 F 6 M)
+8 C (2 F 6 M)",8,2,6,8,2,6,"Clinical:
+Intelligibility of Dysarthric Speech",clinical,intelligbility,RS,Dysathria? Produced 10 phrases spoken as a question and the same 10 phrases spoken as a statement,2003,s,Praat,Statistical Analysis,
+The PRIORI Emotion Dataset: Linking Mood to Emotion Detected In-the-Wild,Khorram 2018,Bipolar,"51 D
+9 C",51,,,9,,,"Clinical:
+Assessment calls",clinical,calls,FS,one-sided natural conversations recorded during daily smartphone usage,2018,s,openSMILE,ANN,CV
+Classification of bipolar disorder episodes based on analysis of voice and motor activity of patients,"Maxhuni, A., 2016",Bipolar,"10 D (1 M 9 F)
+0 C",10,1,9,,,,"Clinical:
+HAMD, ADS, YRMS, MSS
+Self:
+Questionnaires
+
+Clinical
+Hamilton Depression Scale, Common Depression Scale,  Young Mania Rating Scale, Mania Self-Rating Scale
+Self:
+Questionnaires",self,questionnaires,FS,Smartphone conversations,2016,s,openSMILE,"RF, SVM, k-NN, other ML",10-fold-CV
