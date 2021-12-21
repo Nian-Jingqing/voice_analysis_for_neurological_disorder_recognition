@@ -213,7 +213,7 @@ if __name__ == "__main__":
 	input_dir = 'data/inputs/'
 
 	output_dir = 'data/outputs/'
-	input_file = 'speech_psychiatry_heatmap.xlsx'
+	input_file = 'speech_psychiatry_heatmap-adapted_extended.xlsx'
 	path = input_dir + input_file
 
 	# Clean dataframe
